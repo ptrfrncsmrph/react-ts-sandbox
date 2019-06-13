@@ -8,8 +8,19 @@
 
 body {
   margin: 0;
-  padding: 0;
+  background: papayawhip;
   font-family: var(--sans-font);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  display: grid;
+  // grid-auto-rows: 4rem;
+  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+  gap: 1rem;
+  // grid-auto-flow: column;
+  width: 100%;
+  min-height: 100vh;
+  // background: dodgerblue;
 }
